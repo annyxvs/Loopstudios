@@ -31,4 +31,11 @@ export const Button = styled.a`
             transition: .5s;
         }
     }
+
+    
+   @media (max-width: 590px) {
+        width: auto;
+        display: block;
+        height: 5vh;
+    }
 `

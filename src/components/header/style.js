@@ -10,6 +10,10 @@ export const H = styled.header`
     background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(${BackgroundImg});
     background-repeat: no-repeat;
     background-size: cover;
+
+    @media (max-width: 590px) {
+        height: auto;
+    }
 `
 
 export const Header = styled.header`
@@ -20,6 +24,18 @@ export const Header = styled.header`
    justify-content: space-around;
 
    padding: 2.5rem;
+   
+   nav ul{
+       overflow: hidden;
+   }
+
+   @media (max-width: 900px) {
+        flex-direction: column;
+        
+        nav ul{
+            overflow: hidden;
+        }
+    }
 `
 
 export const Main = styled.main`
@@ -42,5 +58,14 @@ export const Main = styled.main`
 
         font-size: 3rem;
         color: #fff;
+    }
+
+    @media (max-width: 900px) {
+        .content h2{
+            width: auto;
+        }
+        .content {
+            width: auto;
+        }
     }
 `
