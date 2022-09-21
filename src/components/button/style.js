@@ -36,6 +36,6 @@ export const Button = styled.a`
    @media (max-width: 590px) {
         width: auto;
         display: block;
-        height: 5vh;
+        margin: 1rem;
     }
 `
