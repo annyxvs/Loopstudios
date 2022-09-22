@@ -43,4 +43,25 @@ export const Main = styled.main`
         width: 110vw;
         height: 100vh;
     }
+
+    @media (max-width: 1240px) {
+        height: 120vh;
+        aside{
+            top: -100px;
+            right:  20px;
+
+            h2{
+                font-size:1.8rem;
+                width: 60vw;
+            }
+
+            p{
+                width: 50vw;
+            }
+        }
+    }
+
+    @media (max-width: 580px) {
+        height: 160vh;
+    }
 `   
